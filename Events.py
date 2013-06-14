@@ -1,0 +1,8 @@
+from pygame.locals import *
+
+global CHARCOLLIDE
+global ELCOLLIDE
+global CHARDEATH
+CHARCOLLIDE = USEREVENT
+ELCOLLIDE = USEREVENT + 1
+CHARDEATH = USEREVENT + 2
